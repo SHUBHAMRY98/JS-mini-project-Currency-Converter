@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+
+}
+
+body{display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+
+}
+
+.wrapper{
+    width: 370px;
+    padding:30px;
+    border-radius: 7px;
+    background: rgb(101, 197, 214);
+
+}
+
+.wrapper header{
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    text-decoration: underline   solid rgb(87, 2, 87);
+}
+
+.wrapper form{
+    margin: 40px 0 20px 0;
+   
+}
+
+form :where(input,select,button){
+    width:100%;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+}
+
+form p{
+    font-size: 18px ;
+    margin-bottom: 5px;
+}
+
+form input{
+    height: 40px;
+    width:50%;
+    font-size: 22px ;
+    padding: 0 15px;
+    border: 1px solid gray;
+    text-align: center;
+    background: whitesmoke;
+    
+}
+
+form input:focus{
+    padding: 0 14px;
+    border: 2px solidrgb(87, 2, 87) ;
+}
+form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size: 15px;
+    
+}
+.drop-list .from .select-box{
+display: flex;
+height: 45px;
+width: 115px;
+align-items: center;
+justify-content: center;
+border: 1px solid grey;
+background-color: red;
+border-radius: 5px;
+}
+.drop-list .to .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    background-color: green;
+    border-radius: 5px;
+    }
+
+.select-box select{
+    width: auto;
+    margin: 0 -5px 0 5px;
+}
+
+.select-box select ::-webkit-scrollbar{
+width: 8px;
+}
+.select-box select ::-webkit-scrollbar-track{
+background: red;
+}
+.select-box select ::-webkit-scrollbar-thumb{
+background: gray;
+border-radius: 8px;
+border-right: 2px solid green;
+}
+
+.select-box img{
+    max-width: 30px;
+}
+
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 22px;
+margin-top: 30px;
+
+}
+
+form .exchange-rate{
+    font-size: 25px ;
+    margin: 20px 0 30px;
+    background: whitesmoke;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+form button{
+    height: 52px;
+    color: whitesmoke;
+    font-size: 17px ;
+    cursor: pointer;
+    background: rgb(107, 4, 107);
+}
+.amount{
+    text-align: center;
+    font-size: 18px ;
+    font-weight: 500px;
+
+}
+.exchange-rate{
+    font-size: 15px;
+    font-weight: 500px;
+    border: solid 1px gray;
+   
+    text-align: center; 
+    
+}
+
+.from{
+    text-align: center;
+}
+.to{
+    text-align: center; 
+}
