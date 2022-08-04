@@ -192,15 +192,6 @@ for(let i=0; i<dropList.length; i++){
     
 }
 
-function loadFlag(element){
-        for(code in country_code ){
-            if(code == element.value ){
-                let imgTag= element.parentElement.querySelector("img");
-                imgTag.src =`https://countryflagsapi.com/png/${country_code[code]}`
-            }
-        }
-    }
-
 window.addEventListener("load", e =>{
     getExchangeRate();
     });

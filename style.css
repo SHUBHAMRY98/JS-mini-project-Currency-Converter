@@ -19,7 +19,7 @@ body{display: flex;
     width: 370px;
     padding:30px;
     border-radius: 7px;
-    background: rgb(101, 197, 214);
+    background: rgb(122, 228, 247);
 
 }
 
@@ -60,7 +60,7 @@ form input{
 
 form input:focus{
     padding: 0 14px;
-    border: 2px solidrgb(87, 2, 87) ;
+    border: 2px solid rgb(87, 2, 87) ;
 }
 form .drop-list{
     display: flex;
@@ -76,7 +76,7 @@ width: 115px;
 align-items: center;
 justify-content: center;
 border: 1px solid grey;
-background-color: red;
+background-color: rgb(190, 190, 190);
 border-radius: 5px;
 }
 .drop-list .to .select-box{
@@ -85,8 +85,8 @@ border-radius: 5px;
     width: 115px;
     align-items: center;
     justify-content: center;
-    border: 1px solid grey;
-    background-color: green;
+    border: 1px solid gray;
+    background-color: rgb(190, 190, 190);
     border-radius: 5px;
     }
 
@@ -99,12 +99,12 @@ border-radius: 5px;
 width: 8px;
 }
 .select-box select ::-webkit-scrollbar-track{
-background: red;
+background: gray;
 }
 .select-box select ::-webkit-scrollbar-thumb{
-background: gray;
+background: whitesmoke;
 border-radius: 8px;
-border-right: 2px solid green;
+border-right: 2px solid;
 }
 
 .select-box img{
@@ -121,7 +121,7 @@ margin-top: 30px;
 form .exchange-rate{
     font-size: 25px ;
     margin: 20px 0 30px;
-    background: whitesmoke;
+    background: rgb(190, 190, 190);
     border-radius: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
